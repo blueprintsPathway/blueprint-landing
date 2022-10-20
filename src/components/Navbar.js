@@ -21,7 +21,7 @@ function Navbar (){
                 <Link to="/about">About</Link>
               </li>
               <li> 
-              <Link to="/solutions">Our Solutions</Link>
+              <Link to="/solutions">What we do</Link>
               </li>
               <li> 
               <Link to="/products">Our Products</Link>
