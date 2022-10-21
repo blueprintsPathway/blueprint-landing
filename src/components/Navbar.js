@@ -26,7 +26,7 @@ function Navbar (){
               <li> 
               <Link to="/products">Our Products</Link>
               </li>
-              <li>
+              <li id="contact-li">
                 <Link to="/contact">Contact</Link>
               </li>
             </ul>

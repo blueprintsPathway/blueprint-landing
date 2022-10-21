@@ -1,6 +1,7 @@
 .top-div{
-    height: 100vh;
+    /* height: 100vh; */
     padding-top: 10em;
+    margin-bottom: 100px;
 }
 
 #overlay {
@@ -73,7 +74,7 @@
     top: 3px;
     left: 2px;
     font-family: 'Poppins';
-font-style: normal;
+font-style: 40px;
 line-height: 58px;
 /* or 242% */
 
@@ -161,10 +162,10 @@ color: #0E2C55;
 
 
   #landingCta{
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     justify-content: center;
-    padding: 0 40px 0 40px;
+    margin: 200px 100px 0px 0px;
   }
 
   #landingCta > div{
@@ -172,17 +173,40 @@ color: #0E2C55;
   }
 
   .left-side{
+    font-family: poppins;
    padding: 20px 30px 20px 30px;
+   margin: 150px 150px 0px 0px;
   }
 
 .landing-headline{
-    font-family: 'Poppins';
     font-style: normal;
     color: #0E2C55;
     font-size: 50px;
     font-weight: 800;
 }
 
+.intro-btn{
+  border: none;
+  text-align: center;
+  height: 35px;
+  padding: 0px 20px;
+  margin: 30px 0px;
+  background-color: #FDEA6A;
+}
+
+.intro-words{
+  letter-spacing: 0.05rem;
+  word-spacing: 0.12rem;
+  font-size: 18px;
+  color: grey;
+  margin-top: 30px;
+  width: 40vw;
+}
+
 .right-side{
     float: right;
+}
+
+img{
+  width: 370px;
 }

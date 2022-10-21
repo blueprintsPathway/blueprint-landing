@@ -1,25 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import { BrowserRouter,Routes, Route } from 'react-router-dom';
-import NavbarHome from './components/Navbar';
-import LandingPage from './pages/LandingPage';
-import About from './pages/About';
+// import LandingPage from './pages/LandingPage';
+import About from './pages/About/About';
 import Solutions from './pages/Solutions';
-import Products from './pages/Products'
 import Contact from './pages/Contact'
 import NoPage from './pages/NoPage';
+import Intro from './pages/Intro/Intro';
+import Products from './pages/products/Products';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    
     <BrowserRouter>
-    <NavbarHome/>
     <Routes>
         <Route path="/" element={<App/>}>
-          <Route index element={<LandingPage />} />
+          <Route index element={<Intro />} />
           <Route path="about" element={<About />} />
           <Route path="solutions" element={<Solutions/>} />
           <Route path="products" element={<Products/>} />
