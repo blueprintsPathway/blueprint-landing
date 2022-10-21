@@ -1,8 +1,13 @@
 *{
-    margin: 0px;
+    margin-top: 0px;
     padding: 0px;
     font-family: poppins;
     color: #0E2C55;
+}
+
+.pro-wrapper{
+    margin-top: 50px;
+    height: 100vh;
 }
 
 .pro-heading{
@@ -20,15 +25,13 @@
     font-size: 30px;
     letter-spacing: 0.05rem;
     color: #0E2C55;
-
  }
 
 .pro-content{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0px 50px;
-    width: 50vw;
+    width: 100%;
 }
 
  .pro-line2{
@@ -38,29 +41,32 @@
 }
 
 .pro-right{
-    height: 100px;
     color: #0E2C55;
+    width: 50%;
+    margin-top: 150px;
+    height: 50%;
 }
 
 .pro-headline{
-    font-style: normal;
     color: #0E2C55;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 800;
 }
 
 .pro-ul{
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
+    margin-left: 80px;
+    float: left;
+    padding: 0;
 }
 
 .pro-li{
-    list-style-type: disc;
-    padding-right: 50px;
     font-size: 17px;
     font-weight: 300;
     color: grey;
+    margin: 10px;
+    padding: 0.2em;
 }
 
 .pro-btn{
@@ -68,6 +74,36 @@
     text-align: center;
     height: 35px;
     padding: 0px 20px;
-    margin: 20px 0px 0px 80px;
+    margin: 20px 0px 0px 70px;
     background-color: #FDEA6A;
+}
+
+.pro-left{
+    width: 50%;
+}
+
+.pro-img{
+    width: 566.62px;
+    height: 845.45px;
+    left: 118px;
+}
+
+.download{
+    margin: -60px 0px 0px 80px;
+}
+
+.download-btn{
+    border: none;
+    margin: 15px;
+    color: grey;
+    background-color: whitesmoke;
+    width: 150px;
+    height: 50px;
+    border-radius: 7px;
+}
+
+.pro-icon{
+    height: 25px;
+    width: 25px;
+    position: absolute;
 }

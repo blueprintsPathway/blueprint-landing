@@ -2,9 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import { BrowserRouter,Routes, Route } from 'react-router-dom';
-// import LandingPage from './pages/LandingPage';
 import About from './pages/About/About';
-import Solutions from './pages/Solutions';
 import Contact from './pages/Contact'
 import NoPage from './pages/NoPage';
 import Intro from './pages/Intro/Intro';
@@ -18,7 +16,6 @@ root.render(
         <Route path="/" element={<App/>}>
           <Route index element={<Intro />} />
           <Route path="about" element={<About />} />
-          <Route path="solutions" element={<Solutions/>} />
           <Route path="products" element={<Products/>} />
           <Route path="contact" element={<Contact/>} />
           <Route path="*" element={<NoPage />} />

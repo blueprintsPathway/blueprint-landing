@@ -1,6 +1,13 @@
 import React from 'react'
 import './About.css'
 import Line from '../../assets/line-this.png'
+import creativity from '../../assets/creativity.png'
+import collaboration from '../../assets/collaboration.png'
+import value from '../../assets/value-oriented.png'
+import innovation from '../../assets/innovation.png'
+import problem from '../../assets/problem-solving.png'
+import driven from '../../assets/driven.png'
+
 
 const About = () => {
   return (
@@ -33,11 +40,18 @@ const About = () => {
               to do our best and deliver more than expected.
           </p>
           <div className='about-cards'>
-            <div className='ab-card'>
-                <p className='card-icon'>ab</p>
-                <p className='card-text'>Creativity</p>
+            <div>
+            <img className='about-img' src={creativity} alt='cards' />
+            <img className='about-img' src={collaboration} alt='cards' />
+            <img className='about-img' src={value} alt='cards' />
+            </div>
+            <div>
+            <img className='about-img' src={innovation} alt='cards' />
+            <img className='about-img' src={problem} alt='cards' />
+            <img className='about-img' src={driven} alt='cards' />
             </div>
           </div>
+          <p className='about-cta'>Get to know more</p>
       </div>
     </div>
   )
