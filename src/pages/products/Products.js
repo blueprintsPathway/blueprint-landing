@@ -22,11 +22,11 @@ const Products = () => {
          <div className='download'>
             <button className='download-btn'>
             <img src={google} className='pro-icon' alt='line' />
-            Download on <br /> Playstore
+            <span className='btn-txt'>Download on Playstore</span> 
             </button>
             <button className='download-btn'>
                 <img src={app} className='pro-icon' alt='line' />
-                Download on <br /> Appstore
+               <span className='btn-txt'>Download on Appstore</span> 
             </button>
          </div>
         </div>

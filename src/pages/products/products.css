@@ -2,12 +2,10 @@
     margin-top: 0px;
     padding: 0px;
     font-family: poppins;
-    color: #0E2C55;
 }
 
 .pro-wrapper{
     margin-top: 50px;
-    height: 100vh;
 }
 
 .pro-heading{
@@ -44,7 +42,6 @@
     color: #0E2C55;
     width: 50%;
     margin-top: 150px;
-    height: 50%;
 }
 
 .pro-headline{
@@ -54,19 +51,17 @@
 }
 
 .pro-ul{
-    display: flex;
-    flex-direction: column;
-    margin-left: 80px;
-    float: left;
-    padding: 0;
+    margin: 20px 0px 0px 90px;
 }
 
 .pro-li{
     font-size: 17px;
     font-weight: 300;
     color: grey;
-    margin: 10px;
-    padding: 0.2em;
+    padding-right: 50px;
+    list-style: disc;
+    line-height: 50px;
+
 }
 
 .pro-btn{
@@ -95,15 +90,22 @@
 .download-btn{
     border: none;
     margin: 15px;
-    color: grey;
-    background-color: whitesmoke;
+    box-shadow: 0px 2px 4px #888888;
+    background-color: white;
     width: 150px;
     height: 50px;
     border-radius: 7px;
+    line-height: 3px;
 }
 
 .pro-icon{
     height: 25px;
     width: 25px;
-    position: absolute;
+    padding-right: 5px;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.btn-txt{
+    text-align: center;
+    color: grey;
 }
