@@ -7,6 +7,7 @@ import value from '../../assets/value-oriented.png'
 import innovation from '../../assets/innovation.png'
 import problem from '../../assets/problem-solving.png'
 import driven from '../../assets/driven.png'
+import frame from '../../assets/frame-design.png'
 
 
 const About = () => {
@@ -17,15 +18,70 @@ const About = () => {
       <div className='about-con-top'>
           <img src={Line} className='ab-line' alt='line' />
           <span className='about-title'>
-              Who are we?
+              What we do
           </span>
-          <p className='about-words'>We are an African tech company focused on simplifying <br />
-           the digital experience of millions of people accross Africa.<br />
-           We connect you to solutions designed to eliminate <br />
-          everyday complications.
-           </p>
-           <button className='about-btn'>Get to know more</button>
-      </div>
+          <p className='about-words'>
+          We create solutions designed to eliminate everyday complications. Blueprints Pathway is a place where businesses become brands. We are a Nigerian Digital Agency company committed to simplifying digital processes in every industry across Africa.
+We believe in better. Because better doesn’t live in isolation and never stops evolving. Because better knows that best is only temporary. We are new, fresh and hungry. We exist to make the world a better experience.
+           </p>            
+
+           <div className='card-con'>
+
+              <div className='card-con-left'>
+                <div className='card card1'
+                style={{backgroundColor: '#9747FF4F'}}
+                >
+                  <h3 className='card-title'>Branding</h3>
+                  <p className='card-words'>Meeting brand objectives is made simpler with Blueprints Pathway since we provide strategy services with great brains that thoroughly investigate the best communication model and approach for your company.</p>
+                   <div className='card-bottom'>
+                  <p className='card-link'>Get to know more</p>
+                  <img  className='card-frame' src={frame} alt='card-frame' />
+                   </div>
+                </div>
+
+                <div className='card card2'
+                style={{backgroundColor: '#FCF6EE'}}
+                >
+                  <h3 className='card-title'>IT services, Product Design & Development </h3>
+                  <p className='card-words'> From the UI to the UX, we develop mood-enhancing, narrative websites that reach and make them appear appealing to their target demographic and beyond, add flavour to the brand, and give it more trust.</p>
+                  <div className='card-bottom'>
+                  <p className='card-link'>Get to know more</p>
+                  <img  className='card-frame' src={frame} alt='card-frame' />
+                   </div>
+                 </div>
+
+              </div>
+
+              
+                <div className='card-con-right'>
+
+                 <div className='card card3'
+                 style={{backgroundColor: '#B1D8FE'}}
+                 >
+                  <h3 className='card-title'>Content</h3>
+                  <p className='card-words'>We produce content that works on all digital and social media channels. Content draws your audience even closer by narrating the stories behind your business. </p>
+                  <div className='card-bottom'>
+                  <p className='card-link'>Get to know more</p>
+                  <img  className='card-frame' src={frame} alt='card-frame' />
+                   </div>
+                </div>
+
+                <div className='card card4'
+                 style={{backgroundColor: '#DEE3E6'}}
+                >
+                  <h3 className='card-title'>Brand Engagement</h3>
+                  <p className='card-words'>Your brand will undoubtedly establish a steadfast place in the hearts of your target audience by engaging in conversation and responding to client issues.</p>
+                  <div className='card-bottom'>
+                  <p className='card-link'>Get to know more</p>
+                  <img  className='card-frame' src={frame} alt='card-frame' />
+                   </div>
+                </div>
+              </div>
+              
+           </div>
+           </div>
+
+    
 
 
                 {/* ABOUT BOTTOM */}
@@ -53,7 +109,7 @@ const About = () => {
           </div>
           <p className='about-cta'>Get to know more</p>
       </div>
-    </div>
+  </div>
   )
 }
 

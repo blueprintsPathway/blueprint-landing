@@ -12,8 +12,9 @@
 }
 
 .about-con-top{
-    float: right;
-    margin: 0px 0px 350px 550px;
+    text-align: center;
+    padding: 50px 55px;
+    background-color: rgb(248, 250, 252);
 }
 
 .ab-line{
@@ -32,24 +33,88 @@
 .about-words{
     letter-spacing: 0.05rem;
     word-spacing: 0.12rem;
-    font-size: 18px;
+    line-height: 27px;
+    font-size: 16px;
     color: grey;
     margin-top: 30px;
 }
 
-.about-btn{
-    border: none;
-    text-align: center;
-    height: 35px;
-    padding: 0px 20px;
-    margin: 40px 0px;
-    background-color: #FDEA6A;
+.card-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.card-con-left{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 25px;
+}
+
+.card-con-right{
+    display: flex;
+    flex-direction: column;
+    margin: 145px 25px 0px 25px;
+}
+
+.card{
+    padding: 25px 0px 0px 25px;
+    height: 450px;
+    width: 450px;
+    margin: 0px 0px 40px 0px;
+}
+
+/* .card1{
+     background-color: #9747FF4F;
+}
+.card2{
+     background-color: #FCF6EE;
+}
+.card3{
+     background-color: #B1D8FE;
+}
+.card4{
+     background-color: #DEE3E6;
+} */
+
+.card-title{
+    font-size: 18px;
+    text-align: left;
+    color: #0E2C55;
+}
+
+.card-words{
+    font-size: 13px;
+    text-align: left;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.card-bottom{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.card-link{
+    font-size: 10px;
+    font-weight: 500;
+    color: #0E2C55;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+.card-frame{
+    height: 140px;
+    width: 240px;
+    margin-top: 30px;
+}
+
+
 
 /* ABOUT BOTTON CSS */
 
 .about-con-bottom{
-    background-color: rgb(248, 250, 252);
     padding: 100px 0px 50px 0px;
     text-align: center;
     width: 100%;

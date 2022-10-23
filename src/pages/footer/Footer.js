@@ -13,7 +13,7 @@ const Footer = () => {
     <div className='foo-wrapper'>
         <div className='foo-left'>
             <p className='foo-title'>Blueprints Pathways</p>
-            <hr />
+            <hr style={{border: '2px solid white'}} />
             <ul className='foo-ul'>
                 <li className='foo-li'>Elf Bus stop, No 1b Akinyemi Ave, <br /> Lekki Phase 1 106104, Lagos</li>
                 <li className='foo-li'>+234-704-1127-855</li>
@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
         <div className='foo-middle'>
             <p className='foo-title'>Quick Links</p>
-            <hr />
+            <hr style={{border: '2px solid white'}} />
             <ul className='foo-ul'>
                 <li className='foo-li'>Home</li>
                 <li className='foo-li'>Solutions</li>
@@ -32,8 +32,8 @@ const Footer = () => {
             </ul>
         </div>
         <div className='foo-right'>
-            <p style={{textAlign: 'center'}} className='foo-title'>Follow Us</p>
-            <hr style={{margin: '0px 120px'}} />
+            <p className='foo-title' style={{textAlign: 'center'}}>Follow Us</p>
+            <hr style={{width: '105px', marginLeft: '132px', border: '2px solid white'}}  />
             <div className='foo-ul ul-right'>
                 <img className='foo-img' src={whatsapp} alt='whatsapp' />
                 <img className='foo-img' src={linkedin} alt='linkedin' />
